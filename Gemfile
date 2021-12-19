@@ -52,6 +52,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "annotate", "~> 2.6"
+  gem "rspec-rails", "~> 5.0"
 end
 
 group :development do
@@ -72,11 +73,5 @@ group :test do
   gem "webdrivers"
 
   gem "shoulda-matchers", "~> 5.0"
+  gem "rails-controller-testing", "~> 1.0"
 end
-
-
-group :development, :test do
-  gem "rspec-rails"
-end
-
-gem "rails-controller-testing", "~> 1.0"
