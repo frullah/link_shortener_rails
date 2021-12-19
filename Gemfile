@@ -78,3 +78,5 @@ group :test do
   gem "shoulda-matchers", "~> 5.0"
   gem "rails-controller-testing", "~> 1.0"
 end
+
+gem "react_on_rails", "= 12.4"
