@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'hello_world', to: 'hello_world#index'
   get 'l/:id', to: 'link_opener#open', as: :link_opener
 
   resources :links

@@ -117,6 +117,7 @@ GEM
       reline (>= 0.2.7)
     jbuilder (2.11.4)
       activesupport (>= 5.0.0)
+    libv8-node (16.10.0.0-x86_64-linux)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -130,6 +131,8 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_racer (0.5.0)
+      libv8-node (~> 16.10.0.0)
     minitest (5.15.0)
     msgpack (1.4.2)
     nenv (0.3.0)
@@ -279,6 +282,7 @@ DEPENDENCIES
   guard-rspec
   importmap-rails
   jbuilder
+  mini_racer
   puma (~> 5.0)
   rails (~> 7.0.0)
   rails-controller-testing (~> 1.0)
