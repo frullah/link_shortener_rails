@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "links/edit", type: :view do
   before(:each) do
     @link = assign(:link, Link.create!(
-      url: "MyString"
+      url: "http://example.com"
     ))
   end
 

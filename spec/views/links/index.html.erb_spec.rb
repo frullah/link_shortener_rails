@@ -4,10 +4,10 @@ RSpec.describe "links/index", type: :view do
   before(:each) do
     assign(:links, [
       Link.create!(
-        url: "Url"
+        url: "http://example.com"
       ),
       Link.create!(
-        url: "Url"
+        url: "http://example.com"
       )
     ])
   end
