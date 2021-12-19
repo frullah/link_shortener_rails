@@ -79,7 +79,7 @@ group :test do
   gem "rails-controller-testing", "~> 1.0"
 end
 
-gem "react_on_rails", "= 12.4"
+gem "react_on_rails", github: "shakacode/react_on_rails", branch: "3fe52bf8fecc7f31489a43fb9a1aa707e6ffb735"
 
-gem "webpacker", "~> 5.4"
+gem "webpacker", "6.0.0.rc.6"
 gem "mini_racer", platforms: :ruby
