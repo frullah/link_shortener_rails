@@ -83,3 +83,4 @@ gem "react_on_rails", github: "shakacode/react_on_rails", branch: "3fe52bf8fecc7
 
 gem "webpacker", "6.0.0.rc.6"
 gem "mini_racer", platforms: :ruby
+gem "mini_racer", platforms: :ruby
